@@ -53,4 +53,3 @@ _Automated information processing and control systems_
 
 1. English - A2 Pre-Intermediate
 2. Russian - Native
-
