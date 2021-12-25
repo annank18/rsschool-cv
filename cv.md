@@ -1,8 +1,8 @@
 # ***Yafizova Anna***
 
-![<img src="../vk.png" alt="" width="200px"](../vk.png)
+![<img src="vk.jpg" alt=""](vk.jpg)
 
-***********
+***
 ## **My Contacts**:
 
 ### phone number: *+7 (967)372-91-76*
@@ -10,7 +10,7 @@
 ### github: *annank18*
 ### discord: *Yafizova Anna (@Annank18)*
 
-***********
+***
 
 ## **About Me**
 
