@@ -4,10 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Anna Yafizova</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>CV</title>
 </head>
 <body>
-    <h1>My feature CV-project</h1>
+    <div class="container">
+        <header>
+          <nav>
+            <ul class="nav_list">
+              <li>
+                <a class="nav_link" href="#contacts">Contacts</a>
+              </li>
+              <li>
+                <a class="nav_link" href="#skills">Skills</a>
+              </li>
+              <li>
+                <a class="nav_link" href="#about-me">About me</a>
+              </li>
+              <li>
+                <a class="nav_link" href="#code-example">Code example</a>
+              </li>
+              <li>
+                <a class="nav_link" href="#educations">Education</a>
+              </li>
+              <li>
+                <a class="nav_link" href="#projects">Projects</a>
+              </li>
+              <li>
+                <a class="nav_link" href="#courses">Courses</a>
+              </li>
+              <li>
+                <a class="nav_link" href="#languages">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </header>    
+    
+        <main>
+          <section class="profile">
+              <img class="profile_img" img src="vk.jpg" alt="My photo"class="profile-photo"/>
+                <div>
+                <h1>Anna Yafizova</h1>
+                <h2 class="profile_subtitle">Front-End Developer(Beginner)</h2>
+                </div>
+          </section>
+          <div class="flex_cont">
+            <div class="main-content">
+              <section class="about-me" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p class="about-me_text">
+                  My name is Anna. I am working in sales now, because i like it and i have good communication skills. In 2021, I started to learn the basics of Frontend and I plan to develop in this direction.
+                </p>
+              </section>
+    
+              <section class="educations" id="educations">
+                <h2 class="section-title">Education</h2>
+                  <p class="education_place">Kazan National Research Technological University</p>
+                  <p class="education_speciality"> <span class="education_speciality-title">Speciality:</span><br>
+                    "Automated information processing and control systems"</p>
+              </section>
+    
+              <section class="projects" id="projects">
+                <h2 class="section-title">My projects</h2>
+                  <ul>
+                    <li>
+                       <a class="projects_link" target="_blank" href="https://annank18.github.io/rsschool-cv/">>CV on Github</a>
+                    </li>
+              </section>
+    
+              <section class="code-example" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <pre class="code-example_code">
+                    function multiply(a, b){
+                      return a * b
+                    }
+                    var result = multiply(2, 3);
+                    alert (result);
+                </pre>
+              </section>
+            </div>
+    
+            <aside class="aside">
+              <section class="contacts" id="contacts">
+                <h2 class="section-title">My Contacts:</h2>
+                  <ul>
+                    <li class="contacts_item">Phone number: 
+                      <a class="contacts_link" target="_blank" href="tel:+79673729176">+7 (967)372-91-76</a>
+                    </li>
+                    <li class="contacts_item">Email:
+                      <a class="contacts_link" target="_blank" href="mailto:annank18@gmail.com">annank18@gmail.com</a>
+                    </li>
+                    <li class="contacts_item">Github:
+                      <a class="contacts_link" target="_blank" href="https://github.com/annank18">annank18</a>
+                    </li>
+                    <li class="contacts_item">Discord:
+                      <a class="contacts_link" target="_blank" href="https://discord.com">Yafizova Anna (@Annank18)</a>
+                    </li>
+                    <li class="contacts_item">Kazan, Russia</li>
+                  </ul>
+              </section>
+    
+              <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                  <ul>
+                    <li class="skill_item">HTML;</li>
+                    <li class="skill_item">CSS;</li>
+                    <li class="skill_item">Git (in process).</li>
+                  </ul>
+              </section>
+    
+              <section class="courses" id="courses">
+                <h2 class="section-title">Courses</h2>
+                  <ul>
+                    <li class="courses_item"><a href="https://beonmax.com/courses/html-css-osnovy/">HTML</a>
+                    </li>
+                    <li class="courses_item"><a href="https://beonmax.com/courses/html-and-css/">CSS</a>
+                    </li>
+                    <li class="courses_item"><a href="https://rs.school/js-stage0/">Подготовительный курс RS School Java-Script/Front-end
+                    </a></li>
+                  </ul>
+              </section>
+    
+              <section class="languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                  <ul>
+                    <li class="languages_item">English (A2 Pre-Intermidate)</li>
+                    <li class="languages_item">Russian (Native)</li>
+                  </ul>
+              </section>
+            </aside>
+          </div>
+        </main>
+      
+    
+        <footer>
+          <div class="footer-github">
+            <a target="_blank" href="https://github.com/annank18">Me on GitHub</a>
+          </div>
+          <div class="footer-year">2022</div>
+          <div class="footer-rsschool">
+            <a target="_blank" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool link"/></a>
+          </div>
+        </footer>
+    </div>
 </body>
 </html>
