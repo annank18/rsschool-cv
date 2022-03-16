@@ -8,28 +8,28 @@
 ### phone number: *+7 (967)372-91-76*
 ### email: *annank18@gmail.com*
 ### github: *annank18*
-### discord: *Yafizova Anna (@Annank18)*
+### discord: *Yafizova Anna (@annank18)*
 
 ***
 
 ## **About Me**
 
-My name is Anna. I am working in sales now, because i like it and i have good communication skills. In 2021, I started to learn the basics of Frontend and I plan to develop in this direction.
+My name is Anna. I am working in sales now, because i like it and i have good communication skills. In 2021, I started to learn the basics of Frontend on RS School - course "JS Stage 0". My finish score was 768. And I plan to develop in this direction. 
 
 ## **Skills**
 
 * HTML
 * CSS
-* Git (in process)
+* JavaScript (beginner)
 
 ## **Code Example**
 
 ```
-function multiply(a, b){
-  return a * b
+function reverse (n) {
+  const Arr = n.toString().split('');
+  const newArr = Arr.reverse().join('');
+  return (newArr);
 }
-var result = multiply(2, 3);
-alert (result);
 
 ```
 
