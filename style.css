@@ -21,12 +21,16 @@ html {
     color: #000;
     font-size: 15px;
     font-weight: normal;
-    background-color: #fffff0;
   }
   
   .container {
     max-width: 1440px;
     margin: 0 auto;
+    background: rgb(187,187,187);
+    background: linear-gradient(132deg, rgba(187,187,187,1) 14%, rgba(255,255,255,1) 100%);
+  }
+
+  .wrapper{
     padding: 0 25px;
   }
   
@@ -65,12 +69,6 @@ html {
     letter-spacing: 1px;
     color: #fff;
     transition: 0.5s;
-    
-  }
-  
-  .nav_link:hover {
-    color: #fff5ee;
-    font-size: 20px;
   }
   
   .flex_cont {
@@ -166,8 +164,12 @@ html {
   }
   
   .code-example_code {
-    padding: 10px;
-    font-size: 18px;
+    padding-top: 30px;
+    font-size: 20px;
+    width: 90%;
+    background-color: rgb(2, 12, 46);
+    color: white;
+    font-style: italic;
   }
   
   .contacts_item {
@@ -226,17 +228,29 @@ html {
     color: #fff;
   }
   
-  .footer-github a {
-    color: #fff;
+  .footer_link{
+    color: white;
     font-size: 20px;
     font-weight: bold;
-    text-decoration: none;
+    transition: 0.4s;
+    position: relative;
   }
   
-  .footer-github a:hover {
-    color: #fff5ee;
-    font-size: 21px;
-    transition: 0.5s;
+  .footer_link::before, .nav_link::before {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background-color: white;
+    transition-duration: .4s;
+    transition-property: transform;
+    transform: scaleX(0);
+  }
+  
+  .footer_link:hover::before, .nav_link:hover::before {
+    transform: scaleX(1);
   }
   
   .footer-rsschool> a> img {
